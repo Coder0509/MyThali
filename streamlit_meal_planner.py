@@ -17,9 +17,9 @@ openai.api_base = "https://api.endpoints.anyscale.com/v1"
 
 # anthropic = Anthropic(api_key=ANTHROPIC_API_KEY)
 
-st.set_page_config(page_title="AI - Meal Planner", page_icon="🍴")
+st.set_page_config(page_title="MyThali", page_icon="🍴")
 
-st.title("AI Meal Planner")
+st.title("MyThali")
 st.divider()
 
 st.write(
