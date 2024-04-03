@@ -10,7 +10,7 @@ from prompts import pre_prompt_b, pre_prompt_l, pre_prompt_d, pre_breakfast, pre
 
  #ANTHROPIC_API_KEY = st.secrets["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"]
  #OPEN_AI_API_KEY = st.secrets["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"]
-ANYSCALE_API = st.secrets["esecret_y4znmjrndvqmkhjtqpjzm5h99c"]
+ANYSCALE_API = st.secrets["esecret_g8u8endjdweek6m9m2uh4xbjwj"]
 
 openai.api_key = ANYSCALE_API
 openai.api_base = "https://api.endpoints.anyscale.com/v1"
