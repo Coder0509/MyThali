@@ -15,7 +15,7 @@ ANYSCALE_API = st.secrets["esecret_y4znmjrndvqmkhjtqpjzm5h99c"]
 openai.api_key = ANYSCALE_API
 openai.api_base = "https://api.endpoints.anyscale.com/v1"
 
-anthropic = Anthropic(api_key="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")
+#anthropic = Anthropic(api_key="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")
 
 st.set_page_config(page_title="MyThali", page_icon="🍴")
 
