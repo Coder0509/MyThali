@@ -8,14 +8,14 @@ from data import food_items_breakfast, food_items_lunch, food_items_dinner
 from prompts import pre_prompt_b, pre_prompt_l, pre_prompt_d, pre_breakfast, pre_lunch, pre_dinner, end_text, \
     example_response_l, example_response_d, negative_prompt
 
-# ANTHROPIC_API_KEY = st.secrets["anthropic_apikey"]
-# OPEN_AI_API_KEY = st.secrets["openai_apikey"]
-ANYSCALE_API = st.secrets["anyscale_apikey"]
+ #ANTHROPIC_API_KEY = st.secrets["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"]
+ #OPEN_AI_API_KEY = st.secrets["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"]
+ANYSCALE_API = st.secrets["esecret_y4znmjrndvqmkhjtqpjzm5h99c"]
 
 openai.api_key = ANYSCALE_API
 openai.api_base = "https://api.endpoints.anyscale.com/v1"
 
-# anthropic = Anthropic(api_key=ANTHROPIC_API_KEY)
+anthropic = Anthropic(api_key="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")
 
 st.set_page_config(page_title="MyThali", page_icon="🍴")
 
